@@ -15,6 +15,6 @@ if response.status_code == 200:
         print(f"{url} is neither a file nor a webpage")
 else:
     print(f"Error: {response.status_code}")
-
+# rm -rf checkAccess.sh 
 # wget https://github.com/MehrdadDw/ScriptsP/raw/main/checkAccess.py && chmod +x checkAccess.py && python3 ./checkAccess.py
 
