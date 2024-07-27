@@ -16,5 +16,5 @@ if response.status_code == 200:
 else:
     print(f"Error: {response.status_code}")
 
-# wget https://github.com/MehrdadDw/ScriptsP/raw/main/checkAccess.py && chmod +x checkAccess.py && ./checkAccess.py
+# wget https://github.com/MehrdadDw/ScriptsP/raw/main/checkAccess.py && chmod +x checkAccess.py && python3 ./checkAccess.py
 
